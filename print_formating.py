@@ -1,3 +1,12 @@
+#logging
+import logging
+from loguru import logger
+logging.basicConfig(
+    format='%(asctime)s,%(msecs)03d %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S',
+    level=logging.DEBUG
+)
+
 
 length_of_land = 100
 breadth_of_land = 100
@@ -29,3 +38,10 @@ print(f"cost of bricks per unit is {bricks_Cost_per_price} {bricks_Cost_per_pric
 #.format
 print("cost of bricks per unit is {}".format(bricks_Cost_per_price))
 #print("cost of bricks per unit is {} {} {}".format(bricks_Cost_per_price,length_of_land,breadth_of_land))
+
+
+#logging ways
+logging.info(f"cost of bricks per unit is {bricks_Cost_per_price}")
+
+#pip install loguru
+logger.info(f"cost of bricks per unit is {bricks_Cost_per_price}")
