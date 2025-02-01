@@ -1,0 +1,46 @@
+1. Python Basics  
+   - Data types, Operators, String formatting, Type conversion  
+   - Control statements (if-else, loops), List, Dict, Tuple, Set  
+
+2. Functions & Modules  
+   - def, return, *args, **kwargs, Scope (LEGB), Lambda functions  
+   - map(), filter(), reduce(), Importing modules, __name__  
+
+3. OOP (Object-Oriented Programming)  
+   - Classes, Objects, __init__, self, Encapsulation, Inheritance  
+   - Polymorphism, Abstract classes, Method Overloading/Overriding  
+
+4. Exception Handling  
+   - try-except-finally, raise, Custom exceptions  
+
+5. File Handling  
+   - open(), read(), write(), File modes, with statement  
+
+6. Advanced Python  
+   - List/Dict Comprehensions, Generators, Iterators, Decorators  
+   - yield vs return, Multithreading vs Multiprocessing  
+
+7. Data Structures & Algorithms  
+   - Lists, Tuples, Sets, Dictionaries, Stacks, Queues, Linked Lists  
+   - Sorting (Bubble, Merge, Quick), Searching (Binary Search), Recursion  
+
+8. Regular Expressions (`re` module)  
+   - search(), match(), findall(), sub()  
+
+9. Database Handling  
+   - sqlite3, MySQL, PostgreSQL, CRUD operations, ORM (SQLAlchemy)  
+
+10. Web Frameworks  
+   - Flask (APIs), Django (MVC, Models, Views, Templates)  
+
+11. Unit Testing  
+   - unittest, Mocking, Patching  
+
+12. Logging & Debugging  
+   - logging module, Debugging using pdb  
+
+13. Python for Data Science (Optional)  
+   - NumPy, Pandas, Matplotlib, Data Analysis  
+
+14. Python in Cloud & DevOps (Optional)  
+   - AWS (Boto3), Docker, Kubernetes, CI/CD  
